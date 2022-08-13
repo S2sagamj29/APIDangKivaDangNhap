@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+ 
+    <typeAliases>
+        <!-- <typeAlias alias="Register" type="com.example.demo.Enity.Register" /> -->
+        <typeAlias alias="User" type="com.example.ApiDemo.Enity.User" />
+    </typeAliases>
+ 
+    <mappers>
+       <!--  <mapper resource="com/example/demo/Mapper/Sql/Register.xml" /> -->
+        <mapper resource="com/example/ApiDemo/Mapper/Sql/User.xml" />
+    </mappers>
+ 
+</configuration>
